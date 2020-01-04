@@ -11,7 +11,7 @@
     
 - 个人身份配置
 
-- 文本换行符配置
+- 文本换行符配置  
   window 用户提交时自动把行结束符CRLF转换成LF. 而在导出代码时把LF转换成CRLF。  
   git config --global  core.autocrlf true
   
