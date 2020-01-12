@@ -39,3 +39,17 @@
     - 回退本地所有修改到未提交的 git checkout    
 - 分支合并 
     - 合并目标分支到当前分支 git merge/git rebase
+
+
+
+
+### IDEA 中git
+- 提交时中忽略某些文件
+```
+ 1.新建一个changelist，名字为 忽略；
+ 2.提交代码时，选中想忽略的文件，右键 Move to Another Changelist，这时选择第一步已经建好的 忽略，下次再提交时，
+   只要 Change list选择Default，就不会出现已经忽略的文件。
+```
+
+- 恢复本地文件为远端版本
+  git checkout  LicenseAdaptLicense.java
