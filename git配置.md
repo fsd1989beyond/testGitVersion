@@ -19,6 +19,5 @@
   git config --global  gui.encoding utf-8
   git config --global  i18n.commitencoding utf-8
   git config --global  i18n.logoutputencoding.encoding utf-8
-
-
+  git --amend  修改最近一次的提交记录。 （常用于修改message）
 
